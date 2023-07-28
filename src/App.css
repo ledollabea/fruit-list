@@ -1,0 +1,70 @@
+#root {
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  background-color: black;
+}
+
+.container {
+  z-index: 1;
+  margin: auto;
+  height: 80vh;
+  max-width: 60vw;
+  padding: 1rem;
+  background-color: #0c0c0c;
+}
+
+.fruit-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+  padding: 1rem;
+  margin: 1rem;
+  color: #6b00be;
+}
+
+.button-direction {
+  display: flex;
+  justify-content: end;
+  margin: 1rem;
+}
+
+.close {
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.button-form {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+}
+
+.input {
+  padding: 1rem;
+}
+
+.label {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  background-color:#6b00be;
+  padding: 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  color:  #d9d9d9;
+}
