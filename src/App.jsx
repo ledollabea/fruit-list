@@ -49,7 +49,7 @@ function App() {
           </div>
         ))}
         <div className="price">
-          <span>Preço Total:</span>
+          <span>Total Price:</span>
           <span>R${totalPrice.toFixed(2)}</span>
         </div>
       </div>
